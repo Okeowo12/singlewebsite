@@ -1,0 +1,855 @@
+ html{
+  scroll-behavior: smooth;
+ }
+  body{
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+ 
+ } 
+
+.navbar{
+padding: 20px 30px;
+ position: absolute;
+  width: 100%;
+  margin-left: 60%;
+     }
+       
+
+a{
+color:rgba(246, 244, 244, 0.842);
+text-decoration-line:none;
+        padding: 6px 10px;
+        font-weight: bold;
+        font-size: 15px;
+        font: 15px poppin, sans-serif;
+      
+        }
+
+       .navbar a:hover{
+          border-bottom: 2px solid rgb(218, 16, 83);
+        
+          
+
+        }
+
+        h1{
+          color: white;
+          padding-left: 75px; 
+          padding-top:18px ;
+          font: 28px Nunito sans,sans-serif;
+          
+        }
+
+        .jma{
+         text-align: center;
+         text-decoration: solid;
+         color:white;
+         padding: 1px;
+         font: 48px Nunito sans,sans-serif;
+        
+
+        }
+
+        .jim{
+            text-align: center;
+            font-family: nunito, sans-serif;
+            padding-left: 150x;
+            margin-bottom: 50px;
+            color:#eeee ;
+            font: 24px nunito,sans-serif;
+            
+            
+            
+           
+        }
+
+        .jp{
+            position:relative;
+            left: 612px;
+             top: 30px; 
+            text-align: center;
+            font-size: large;
+            color:white;
+            border-radius: 25px;
+            background-color:rgba(255, 252, 252, 0.266);
+            width: 100px;
+            padding: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 12px 25px;
+            font-family: nunito, sans-serif;
+            font: 15px Nunito sans,sans-serif;
+           
+           
+
+            
+        }
+
+        .judy{
+            background-image:url(../images/here.jpg);
+             background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            background-attachment: fixed;
+
+           
+        
+            
+           /*navbar background color  */
+        }
+
+        .jasp{
+          width: 100%;
+          height: 100vh;
+          background-color:rgba(73, 72, 72, 0.507);
+          /* color: black; */
+          
+        }
+
+        
+         /* download button css */
+        .Down{
+         margin-left: 510px;
+         border-radius: 20px;
+         border: 2px solid ;
+         padding: 9px 20px;
+         font-size: 100px;
+         font-family:sans-serif;
+         font: 14px poppin, sans-serif;
+        
+        }
+
+        .get{
+          border: 2px solid;
+          border-radius: 20px;
+          margin-left: 6px;
+          padding: 9px 20px;
+          font: 14px poppin, sans-serif;
+        }
+
+        .Down:hover{
+          text-decoration: none;
+          background-color:rgb(218, 16, 83);
+          border-color:rgba(217, 78, 103, 0.87); 
+          cursor: pointer;
+        }
+
+        .get:hover{
+          text-decoration: none;
+
+         background-color: rgb(218, 16, 83);
+          border-color:rgba(217, 78, 103, 0.87); 
+          cursor: pointer;
+        }
+
+
+         /* About css */
+       .Ab{
+        position: relative;
+        left: 600px;
+        top: 30px;
+        color: palevioletred;
+        border-radius: 20px;
+       padding-top: 8px;
+       padding-bottom: 8px;
+        width: 75px;
+        padding-left: 20px;
+        background-color: rgba(255, 192, 203, 0.274);
+        font-family:nunito, sans-serif ;
+        font: 16px Nunito sans,sans-serif;;
+       }
+
+       .lm{
+        position: relative;
+        left: 545px;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 32px nunito, sans-serif;
+       }
+
+       .am{
+        color: rgb(218, 16, 83);
+        font-family: nunito, sans-serif;
+       }
+
+       .tx{
+        text-align: center;
+        font-family: nunito, sans-serif;
+       }
+
+
+       /* services css */
+      .sr{
+        position: relative;
+        left: 600px;
+        top: 30px;
+        color: palevioletred;
+        border-radius: 20px;
+       padding-top: 8px;
+       padding-bottom: 8px;
+        width: 90px;
+        padding-left: 20px;
+        padding-right: 18px;
+        background-color: rgba(255, 192, 203, 0.274);
+        font-family:nunito, sans-serif ;
+        font: 17px Nunito sans,sans-serif;;
+      }
+      
+      .if{
+        position: relative;
+        left: 530px;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 25px;
+        font: nunito sans, sans-serif;
+       
+        
+      }
+
+      .rv{
+        color: rgb(218, 16, 83);
+        font-family:nunito, sans-serif ;
+      }
+.hp{
+  text-align: center;
+  font-family: nunito, sans-serif;
+}
+
+      .grasec{
+        width: 200px;
+        background-color: #ffff;
+        padding-top:80px ;
+        padding-bottom: 20px;
+        padding-right:30px ;
+        padding-left: 20px;
+        box-shadow: 1px 1px 20px rgb(67, 86, 146, 0.12);
+        border-radius: 9px;
+       position: relative;
+       }
+       .grasec:hover{
+        background: none;
+        color: #ffff;
+
+       }
+
+       .grasec span{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 250px;
+        height: 0;
+        border-radius: 9px;
+        z-index: -1;
+        transition: all 0.6s ease-in-out;
+        background-color: rgb(245, 8, 87); 
+
+       }
+
+       .grasec:hover span{
+        height: 350px;
+
+       }
+       .grasec:hover .fa{
+        color: white;
+       }
+      
+
+      .gg{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       transition: 0.6 ease-in-out;
+      
+       margin-top: 30px;
+       margin-left: 45px;
+       height: 350px;
+    
+
+      }
+
+      .ppp{
+        text-align: center;
+        font-family:nunito, sans-serif ;
+        transform: 0.6s ease-in-out;
+        
+       
+      }
+      
+
+      .txsec{
+        font-weight: bold;
+        font-size: 17px;
+        font-family: nunito, sans-serif;
+        margin-bottom: 15px;
+        text-align: center;
+        
+        
+
+      }
+
+      
+      
+      
+
+      .h2{
+       position: relative;
+       left: 589px;
+        color: #ffff;
+        padding: 1px 1px;
+        font-family: Nunito sans,sans-serif;
+        padding-top: 30px;
+       
+       
+       
+
+      }
+     .fa-dribbble{
+      font-size: 48px;
+      color: rgb(194, 9, 71);
+      margin-left: 70px;
+      margin-bottom: 17px;
+      
+    
+     }
+
+     .fa-globe{
+      font-size: 48px;
+      color: rgb(194, 9, 71);
+      margin-left: 70px;
+      margin-bottom: 17px;
+      transition: 0;
+     }
+
+     .fa-file-text-o{
+      font-size: 48px;
+      color: rgb(194, 9, 71);
+      margin-left: 70px;
+      margin-bottom: 17px;
+     }
+     .fa-tachometer{
+      font-size: 48px;
+      color: rgb(194, 9, 71);
+      margin-left: 70px;
+      margin-bottom: 17px;
+     }
+        
+      .donu{ 
+        position: relative;
+        left: 400px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        padding-bottom: 15px;
+        font: open sans , sans-serif;
+
+      }
+
+
+      .cal{
+       position: absolute;
+        left: 580px;
+        border-radius: 20px;
+        padding-top: 15px;
+        color: white;
+        border: 2px solid whitesmoke;
+       font-weight: bold;
+       font-size: 16px;
+       margin-left: 6px;
+      padding: 9px 20px;
+      font: Nunito sans-serif; 
+       
+
+      }
+
+      .judy2{
+        background-image:url(../images/here2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color:rgb(8, 8, 8);
+        width: 100%;
+        height: 32vh;
+        background-attachment: fixed;
+      
+
+      }
+
+      .judy1{
+        width: 100%;
+        height: 32vh;
+        background-color: rgba(0, 0, 0, 0.628);
+        
+      }
+
+      .cal:hover{
+        text-decoration: none;
+
+       background-color: rgb(235, 8, 84);
+        border-color:rgba(217, 78, 103, 0.87); 
+        cursor: pointer;
+      }
+
+
+      /* work css */
+    
+
+     .W{
+      position: relative;
+      left: 600px;
+      top: 30px;
+      color: palevioletred;
+      border-radius: 20px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+      width: 90px;
+      padding-left: 35px;
+      background-color: rgba(255, 192, 203, 0.274);
+      font-family: nunito, sans-serif;
+      font: 17px Nunito sans,sans-serif; ;
+     }  
+     
+     .C{
+      position: relative;
+      left: 510px;
+      margin-top: 50px;
+      font-weight: bold;
+      font-size: 25px;
+      font-family: nunito, sans-serif;
+      font: 32px Nunito sans,sans-serif;;
+     }
+
+     .Re{
+      color: rgb(218, 16, 83);
+      font-family: nunito, sans-serif;
+      
+     }
+
+     .Vera{
+       margin-top: 15px;
+        text-align: center;
+       font-family: nunito, sans-serif;
+     
+     }
+
+     .she{
+      text-align: center;
+      margin-top: 25px;
+      font-family:nunito, sans-serif ;
+     
+     }
+     
+     .All{
+      display: inline-block;
+      border: 1px solid rgb(226, 221, 221);
+      background-color: rgba(204, 200, 200, 0.293);
+      border-radius: 40px;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 7px  17px 9px 17px;
+      color: grey;
+      margin-right:0px;
+      line-height: 1;
+     
+     }
+
+     .Gggg{
+        display: inline-block;
+      border: 1px solid rgb(226, 221, 221);
+      background-color: rgba(204, 200, 200, 0.293);
+      border-radius: 40px;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 7px  17px 9px 17px;
+      color: grey;
+      margin-left: 6px;
+      line-height: 1;
+      font-family: nunito, sans-serif ;
+     }
+
+     .Uu{
+      display: inline-block;
+      border: 1px solid rgb(226, 221, 221);
+      background-color: rgba(204, 200, 200, 0.293);
+      border-radius: 40px;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 7px  17px 9px 17px;
+      color: grey;
+      margin-left: 6px;
+      line-height: 1;
+     }
+
+    .web{
+      display: inline-block;
+      border: 1px solid rgb(226, 221, 221);
+      background-color: rgba(204, 200, 200, 0.293);
+      border-radius: 40px;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 7px  17px 9px 17px;
+      color: grey;
+      margin-left: 6px;
+      line-height: 1;
+    }
+
+     .All:hover{
+     color: whitesmoke;
+      background-color:rgb(245,8,87);
+      cursor: pointer;
+     
+      
+    } 
+
+    .Gggg:hover{
+     color: whitesmoke;
+      background-color:rgb(245, 8, 87); 
+      cursor: pointer;
+    }
+
+    .Uu:hover{
+      color: whitesmoke;
+      background-color:rgb(245, 8, 87);
+      cursor: pointer;
+    }
+
+    .web:hover{
+      color: whitesmoke;
+      background-color:rgb(245, 8, 87); 
+      cursor: pointer;
+    }
+
+    .prtv1{
+      width:338px;
+      margin-top: 50px;
+      margin-left: 50px;
+     
+     
+      
+      
+    }
+
+    .prtv2{
+      width: 338px;
+      margin-left:50px ;
+      margin-right: 50px;
+     height: 39vh;
+      
+    }
+
+
+     /* contact us css */
+
+     .Con{
+      position: relative;
+      left: 600px;
+      top: 30px;
+      color: palevioletred;
+      border-radius: 20px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+      width: 90px;
+      padding-left: 20px;
+      
+      background-color: rgba(255, 192, 203, 0.274);
+     }  
+
+     .tact{
+      position: relative;
+      left: 600px;
+      margin-top: 50px;
+      font-weight: bold;
+      font-size: 25px;
+      font-family:nunito, sans-serif ;
+     }
+
+     .us{
+      color: rgb(218, 16, 83);
+       font-family:nunito, sans-serif ;
+     } 
+
+     .google{
+      left: 120px;
+     position: relative;
+       margin-top: 20px;
+      width: 85%;
+      height: 40vh; 
+    
+    }
+     
+    /* form */
+
+     .kiki-t{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin-left: 80px; 
+    
+
+      
+    }
+    
+    
+     .button{
+      position: relative;
+      left: 200px;
+      font-weight: bold;
+      font-size: 17px ;
+      padding: 10px 15px;
+      border-radius: 20px;
+      color: white;
+      border: 1px solid palevioletred;
+      background-color: rgba(228, 64, 87);
+
+      
+    }
+
+    .button:hover{
+      text-decoration: none;
+      background-color: rgb(194, 9, 71);
+      cursor: pointer;
+       transition: 0.20s 
+    } 
+
+    .pastore{
+      position: absolute;
+      top: 487%;
+      left: 700px;
+    
+    
+     
+    }
+
+  
+    
+
+    .jago{
+      width: 266px;
+      height: 4px;
+      padding: 16px 2px;
+      margin-bottom: 25px;
+      margin-left: 3px;
+    }
+   
+
+    .suject{
+      width: 550px;
+      padding: 16px 2px;
+      height: 4px;
+      margin-bottom:25px ;
+    }
+
+    .pastor{
+      width: 551px;
+      margin-bottom: 25px;
+    }
+
+    .fa-map-marker{
+     
+    font-size: 22px;
+    border-radius: 50px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    color:rgba(230, 11, 84, 0.556);
+    background-color:  rgba(255, 192, 203, 0.274);
+    height: 44px;
+    align-items: center;
+     float: left;
+     margin-top: 10px;
+     
+    }
+
+    .fa-envelope{
+      
+    font-size: 22px;
+    border-radius: 50px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    color:rgba(230, 11, 84, 0.556);; 
+    background-color: rgba(255, 192, 203, 0.274);
+    height: 44px;
+    align-items: center;
+     float: left;
+     margin-top: 50px;
+
+    }
+
+   .fa-phone{
+     
+    font-size: 22px;
+    border-radius: 50px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    color:rgba(230, 11, 84, 0.556); 
+    background-color: rgba(255, 192, 203, 0.274);
+    height: 44px;
+    align-items: center;
+     float: left;
+     margin-top: 20px;
+
+
+   }
+
+     .fa-phone:hover{
+      color: white;
+      cursor: pointer;
+      background-color: rgba(255, 0, 43, 0.585)
+     }
+
+     .fa-map-marker:hover{
+      color: white;
+      cursor: pointer;
+      background-color:rgba(255, 0, 43, 0.585)
+     }
+
+     .fa-envelope:hover{
+      color: white;
+      cursor: pointer;
+      background-color: rgba(255, 0, 43, 0.585)
+     }
+
+     .llt{
+      font-size: 21px;
+      font-family: nunito, sans-serif; 
+      padding-right: 60px;
+      margin-left:55px;
+      }
+      
+      
+
+       
+      .t5 {
+        font-size: 14px;
+        color: rgb(102, 101, 101);
+        font-family: open sans , sans-serif;
+        padding-left: 60px;
+    
+
+        }
+       
+       
+        
+       
+      
+    .copy{
+      background-color: rgba(245, 241, 241, 0.644);
+      padding:  1px;
+      color: rgb(71, 70, 70);
+      margin-top: 80px;
+      box-shadow: #ffffffc9;
+    
+     
+    }
+
+    .Ade{
+     font-weight: bold;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+    ;
+
+    }
+
+    .right{
+      padding-left: 80px;
+      
+    }
+
+    .twtt{
+      text-align: right;
+    
+    
+     
+    }
+    
+   .glory{
+    margin-left: 60px;
+   } 
+    
+    
+    .fa-twitter{
+      font-size: 20px;
+      color: white;
+      background-color: rgba(224, 6, 79, 0.903);
+      border-radius: 50px;
+      padding: 10px;
+    }
+
+
+     .fa-facebook{
+      font-size: 20px;
+      color: white;
+      background-color:  rgba(224, 6, 79, 0.903);
+      border-radius: 50px;
+      padding: 10px;
+     
+     }
+       .fa-github{
+        font-size: 20px;
+      color: white;
+      background-color:  rgba(224, 6, 79, 0.903);
+      border-radius: 50px;
+      padding: 10px;
+       }
+      
+       .fa-linkedin{
+        font-size: 20px;
+      color: white;
+      background-color: rgba(224, 6, 79, 0.903) ;
+      border-radius: 100px;
+      padding: 10px;
+       }
+
+       .fa-linkedin:hover{
+         cursor: pointer;
+         background-color: rgb(194, 9, 71); 
+       }
+
+       .fa-facebook:hover{
+        cursor: pointer;
+        background-color: rgb(194, 9, 71); 
+      }
+ .fa-github:hover{
+  cursor: pointer;
+  background-color: rgb(194, 9, 71); ;
+ }
+
+      .fa-twitter:hover{
+        cursor: pointer;
+        background-color: rgb(194, 9, 71); 
+      }
+
+      .fa-arrow-up{
+        font-size: 20px;
+        color: white;
+        background-color:  rgba(224, 6, 79, 0.903);
+        border-radius: 50px;
+        padding: 10px;
+        border-bottom: none;
+        transition:  all 0.4s ease ;
+       
+        margin-left: 30px;
+        margin-bottom: 30px;
+        
+      }
+      .fa-arrow-up:hover{
+        cursor: pointer;
+        
+      }
+
+.v-v{ 
+margin-left: 120px;
+}
+   
+
+    
+
+
+   
+    
+
+
+        
